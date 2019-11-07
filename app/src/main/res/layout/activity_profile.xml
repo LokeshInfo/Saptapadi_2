@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/ttbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/drk_blue"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:layout_collapseMode="pin"
+            android:background="@color/drk_blue"/>
+
+        <ImageView
+            android:id="@+id/txToolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:src="@drawable/saptapadi_name_white"
+            android:textSize="17dp"
+            android:singleLine="true"
+            android:paddingRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profil"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/blue"
+            android:src="@drawable/app_logo"
+            android:padding="9dp"
+            />
+
+        <ImageView
+            android:id="@+id/ic_gallery"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:src="@drawable/camera_blue"
+            android:layout_alignBottom="@+id/img_profil"
+            android:layout_alignRight="@+id/img_profil"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_pro_name"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_cont_no"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_about"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            />
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="@string/app_about"
+        android:gravity="start"
+        android:inputType="text"
+        android:editable="false"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/editProfile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:visibility="visible"
+            />
+
+        <ImageView
+            android:id="@+id/save1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_mail"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                />
+            <EditText
+                android:id="@+id/ed_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/app_emailid"
+                android:gravity="start"
+                android:inputType="text"
+                android:editable="false"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/editProfile2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/save2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/save"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_privacy"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                />
+            <EditText
+                android:id="@+id/ed_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/app_mobile_number"
+                android:gravity="start"
+                android:inputType="number"
+                android:editable="false"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/editProfile3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/save3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/save"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_about"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            />
+        <EditText
+            android:id="@+id/ed_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Address"
+            android:gravity="start"
+            android:inputType="text"
+            android:editable="false"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/editProfile4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:visibility="visible"
+            />
+
+        <ImageView
+            android:id="@+id/save4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_lock"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                />
+            <EditText
+                android:id="@+id/ed_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/app_profile_paswd"
+                android:gravity="start"
+                android:inputType="text"
+                android:editable="false"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/editProfile5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/save5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/save"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

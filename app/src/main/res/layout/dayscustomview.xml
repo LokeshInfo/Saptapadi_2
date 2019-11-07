@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_gravity="center">
+    <Spinner
+        android:id="@+id/spinnerdays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/skyblue"/>
+
+    <Button
+        android:id="@+id/daysok"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="OK"
+        android:layout_margin="3dp"
+        android:textColor="@color/white1"
+        android:background="@drawable/button"
+        />
+</LinearLayout>
+</LinearLayout>

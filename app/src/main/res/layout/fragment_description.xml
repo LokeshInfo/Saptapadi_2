@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".Fragment.Description">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_margin="5sp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location:"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:paddingLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OYO 13933 Varcity Pearl is a contemporary property:"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read More"
+            android:textSize="15dp"
+            android:textColor="@color/red"
+            android:layout_margin="5dp"
+            android:paddingLeft="20dp"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</FrameLayout>

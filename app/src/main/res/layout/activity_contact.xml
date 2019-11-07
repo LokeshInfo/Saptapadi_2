@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <TableLayout
+        android:background="#065da3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/app_logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_msg_leave"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:layout_margin="3dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_cont_subject"
+        android:textColor="@color/black"
+        android:layout_gravity="start"
+        android:drawableLeft="@drawable/ic_subject"
+        android:gravity="start"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginTop="15sp"
+        android:paddingLeft="10dp"
+        />
+    <View
+        android:layout_width="310dp"
+android:layout_marginLeft="30dp"
+        android:layout_height="0.66dp"
+        android:background="@color/skyblue"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/shaps_contect"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Massage...."
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:paddingLeft="10dp"
+            android:layout_gravity="start"
+            android:gravity="start"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:gravity="start"
+        android:textSize="15dp"
+        android:layout_gravity="start"
+        android:textColor="@color/black" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Type"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10sp"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:background="@color/skyblue"
+    android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+        <Spinner
+
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/skyblue"
+        android:contextClickable="true"
+        android:outlineAmbientShadowColor="@color/skyblue"
+        android:outlineSpotShadowColor="@color/skyblue"
+        android:prompt="@string/spiner_title" />
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_submit"
+        android:textColor="@color/white1"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:layout_marginLeft="15sp"
+        android:layout_gravity="start" />
+    <!--<com.github.clans.fab.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="20pt"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:src="@drawable/ic_add_black_24dp"-->
+        <!--fab:fab_colorNormal="@color/skyblue"-->
+        <!--fab:fab_colorPressed="#FAF1996A"-->
+        <!--fab:fab_colorRipple="#FAF88545"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_above="@+id/tbar"-->
+        <!--/>-->
+
+</LinearLayout>

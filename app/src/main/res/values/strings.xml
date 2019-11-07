@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Saptapadi</string>
+    ____login______
+    <string name="app_login">LogIn</string>
+    <string name="app_signup">SignUp</string>
+    <string name="app_email_or_phone">Email or Phone</string>
+    <string name="app_password">Password</string>
+    <string name="app_forgot_password">Or Forgot Password</string>
+    <string name="app_or">OR</string>
+    <string name="app_facebook_login">Continue with Facebook</string>
+    <string name="app_google_login">Continue with Google</string>
+    <string name="app_privacy">By signing up,you agree to our terms of Use and Privacy Policy</string>
+    <string name="app_dont_have">Dont have an account?</string>
+    <string name="app_signin">Sign Up?</string>
+
+    _________signuo_________
+    <string name="app_create_an_account">Create an Account </string>
+    <string name="app_mobile_number">Phone Number </string>
+    <string name="app_your_name">Your Name</string>
+    <string name="app_emailid">Email Address</string>
+    <string name="app_cnfm_pswd">Conform Password</string>
+    <string name="app_city">Select City</string>
+    <string name="app_state">Select State</string>
+    <string name="app_create_account">Create Account </string>
+
+
+    ----forgot--------
+    <string name="app_forgotpswd">Forgot Password</string>
+    <string name="app_forgotpswd_status">Login Using your mobile</string>
+    <string name="app_forgot_msg">Please enter the registered phone number to receive a code </string>
+    <string name="app_forgot_otp">OTP is send to your primary number ending with 99******22 </string>
+    <string name="app_get_code">Get Code </string>
+    <string name="app_submit">Submit </string>
+
+    ________categories________
+    <string name="app_categories">Categories</string>
+    <string name="app_banquet_hall">Banquet Halls</string>
+    <string name="app_decorators">Decorators</string>
+    <string name="app_caterers">Caterers</string>
+    <string name="app_photographers">Photographers</string>
+    <string name="app_makeupartists">Makeup Artists</string>
+    <string name="app_mehandiartist">Mehandi Artists</string>
+    <string name="app_invitationcard">Invitation Cards</string>
+    <string name="app_transport">Transport</string>
+    <string name="app_gift">Gift</string>
+    <string name="app_hotels">Hotels</string>
+    <string name="app_rental_apparel">Rental Apparel</string>
+    <string name="app_jewelry">Jewelry</string>
+
+    <string name="app_booking">Booking Dates and Guests</string>
+    <string name="app_rating">Rating and Reviews</string>
+    <string name="app_book_now">Book Now and Pay </string>
+
+    -----contact us------
+    <string name="app_contact">Contact Us </string>
+    <string name="app_msg_leave">Leave a Massage to us </string>
+    <string name="app_cont_subject">Subject </string>
+    -----Profile------
+    <string name="app_profile">  Profile </string>
+    <string name="app_pro_name">Tanveer Mujtaba k </string>
+    <string name="app_cont_no">9742213050 </string>
+    <string name="app_profile_update"> Update Profile </string>
+    <string name="app_profile_paswd"> Change Password </string>
+
+    <string name="app_profile_noti">Notifitions </string>
+    <string name="app_profile_invite">Invite and Earn </string>
+    <string name="app_about">Name Profile </string>
+
+    <string name="app_term_condition">Terms and Conditions </string>
+    <string name="app_pro_privacy">Privacy Policies </string>
+    _________share invite________
+    <string name="app_invite">Your Invite code:AfxS6VzJ0 </string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_hall_book">HallBookActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_hallbook">HallBookActivity</string>
+    <string name="tab_text_1">Hall Details</string>
+    <string name="tab_text_2">Amenities </string>
+    <string name="tab_text_3">Description</string>
+    <string name="tab_text_4">Rating</string>
+    <string name="tab_text_5">Guest Details</string>
+
+    --------spinner------
+    <string name="spiner_title"> Select Type</string>
+
+    ----hotel----
+    <string name="hotel"> Hotel Booking </string>
+    <string name="hotel_booking"> Every thing ,Right Where you need it  </string>
+    <string name="hotel_booking1"> Go Happy &amp;  go AnyWhare </string>
+
+
+</resources>

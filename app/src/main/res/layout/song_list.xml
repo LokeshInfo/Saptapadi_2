@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UberTestActivity"
+    android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="horizontal">
+
+    <ImageView
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:src="@drawable/hotel"
+                android:id="@+id/image_zoom1"/>
+
+
+    </LinearLayout>
+
+
+</HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location: OYO 133933 Varcity Pearl"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:paddingLeft="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Near Forum Mall, koramangala Banglore"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:paddingLeft="20dp"
+
+                />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_location"
+                    android:layout_gravity="end"
+                    android:layout_margin="10dp"
+                    />
+        </LinearLayout>
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@drawable/ratingbutton"
+                android:drawableRight="@drawable/ic_star_rating"
+                android:gravity="center"
+                android:text="4.5"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white1" />
+
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+</FrameLayout >
